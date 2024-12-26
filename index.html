@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3d9e95cc63.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <h1 id="name"><b>K</b>uruba</h1>
+        <nav>
+          <!-- <img src="images/logo.png" class="logo" alt="Logo"> -->
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>
+            <div class="container">
+              Hi, I'm <span>Kuruba</span>
+              <p>
+                <span class="typed-text"></span
+                ><span class="cursor">&nbsp;</span>
+              </p>
+              <br />
+            </div>
+          </h1>
+        </div>
+        <div>
+          <!-- <img
+            src="WhatsApp_Image_2024-05-19_at_14.42.49_ae856382_loop_-removebg-preview.png"
+            alt="MY Image"
+          id="profile"/> -->
+        </div>
+      </div>
+    </div>
+
+    <!------ About ------>
+    <section id="About">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="WhatsApp Image 2024-05-19 at 14.42.49_ae856382(loop).jpg"
+              alt="User Image"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              My self Veeresh i am from Andhra Pradesh,Kurnool District,Adoni.
+              My hobbies are lisiting music.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li>
+                  <span>App Development</span><br />Building Android/iOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2021 - Current</span><br />UI/UX Design Training at ET
+                  Institute
+                </li>
+                <li><span>2019 - 2021</span><br />Team Lead at StarApp LLC.</li>
+                <li>
+                  <span>2017-2019</span><br />UI/UX Design Executive at Coin
+                  Digital Ltd.
+                </li>
+                <li>
+                  <span>2016-2017</span><br />Internship at Ekart eCommerce.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2016</span><br />UI/UX Design Training at ET Institute
+                </li>
+                <li><span>2016</span><br />MBA from MIT Bangalore</li>
+                <li><span>2014</span><br />BBA from ISM Bangalore</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------- Services ------->
+    <section id="Services">
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Design</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                nulla nibh, tincidunt sit amet sapien quis.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-crop-simple"></i>
+              <h2>UI/Design</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                nulla nibh, tincidunt sit amet sapien quis.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-app-store"></i>
+              <h2>App Design</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                nulla nibh, tincidunt sit amet sapien quis.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------- Portfolio ------->
+    <section id="Portfolio">
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img
+                src="7889361.jpg"
+                alt="Work Image 1"
+              />
+              <div class="layer">
+                <h3>Social Media App</h3>
+                <p>
+                  The app connects you to talented people around the world.
+                  Download it from the Play Store.
+                </p>
+                <a href="#"><i class="fa-brands fa-app-store"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+    </section>
+
+    <!------- Contact ------->
+    <section id="Contact">
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-envelope"></i> contact@example.com</p>
+              <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+              <div class="social-icons">
+                <a href="https://facebook.com/"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="images/my-cv.pdf" download class="btn btn2"
+                >Download CV</a
+              >
+            </div>
+            <div class="contact-right">
+              <form>
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Your Name"
+                  required
+                  id="UserName"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                  id="usermail"
+                />
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="Your Message"
+                  id="userinformation"
+                ></textarea>
+                <button type="submit" class="btn btn2" onclick="forminfo()">
+                  Submit
+                </button>
+              </form>
+              <div>
+                <p id="userinformationshow"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright © Veeresh. Made with <i class="fa-solid fa-heart"></i> by
+            Easy Tutorials
+          </p>
+        </div>
+      </div>
+    </section>
+    <script>
+      function openTab(tabName) {
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+        for (var tabLink of tabLinks) {
+          tabLink.classList.remove("active-link");
+        }
+        for (var tabContent of tabContents) {
+          tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+      }
+      const typedTextSpan = document.querySelector(".typed-text");
+      const cursorSpan = document.querySelector(".cursor");
+
+      const textArray = ["Veeresh  From Andhra Pradesh "];
+      const typingDelay = 200;
+      const erasingDelay = 100;
+      const newTextDelay = 2000; // Delay between current and next text
+      let textArrayIndex = 0;
+      let charIndex = 0;
+
+      function type() {
+        if (charIndex < textArray[textArrayIndex].length) {
+          if (!cursorSpan.classList.contains("typing"))
+            cursorSpan.classList.add("typing");
+          typedTextSpan.textContent +=
+            textArray[textArrayIndex].charAt(charIndex);
+          charIndex++;
+          setTimeout(type, typingDelay);
+        } else {
+          cursorSpan.classList.remove("typing");
+          setTimeout(erase, newTextDelay);
+        }
+      }
+
+      function erase() {
+        if (charIndex > 0) {
+          if (!cursorSpan.classList.contains("typing"))
+            cursorSpan.classList.add("typing");
+          typedTextSpan.textContent = textArray[textArrayIndex].substring(
+            0,
+            charIndex - 1
+          );
+          charIndex--;
+          setTimeout(erase, erasingDelay);
+        } else {
+          cursorSpan.classList.remove("typing");
+          textArrayIndex++;
+          if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+          setTimeout(type, typingDelay + 1100);
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // On DOM Load initiate the effect
+        if (textArray.length) setTimeout(type, newTextDelay + 250);
+      });
+      function forminfo() {
+        let username = document.getElementById("UserName").value;
+        let useremailid = document.getElementById("usermail").value;
+        let userinformation = document.getElementById("userinformation").value;
+       if(username=="" || useremailid==""|| userinformation==""){
+          alert("FILL THE INFORMATION ")
+        }
+        else{
+          let data =
+         "MY NAME IS:" +
+         username +
+         " " +
+         "AND MY EMAILID IS :" +
+         " " +
+         " " +
+         useremailid +
+         "and my message is :" +
+         " " +
+         userinformation;
+         let userinformationshow = (document.getElementById(
+           "userinformationshow"
+          ).innerHTML = data);
+          window.event.preventDefault()
+        }
+      }
+    </script>
+  </body>
+</html>
